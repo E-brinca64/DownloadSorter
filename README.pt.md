@@ -1,3 +1,4 @@
+[🇺🇸 English](README.md) | [🇧🇷 Português](README.pt.md)
 # DownloadSorter
 
 Uma ferramenta simples desenvolvida em Python para organizar automaticamente os arquivos da pasta Downloads em diretórios categorizados de acordo com suas extensões.
@@ -74,11 +75,3 @@ Arquivos que não correspondem a nenhuma extensão configurada são direcionados
 ## Compatibilidade
 
 Desenvolvido e testado no Linux. A compatibilidade com Windows e macOS ainda não foi testada.
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT.
-
----
-
-**Language:** [English](README.md)
