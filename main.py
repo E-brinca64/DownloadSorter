@@ -1,13 +1,15 @@
 from pathlib import Path
-import shutil
 
 from classifier import classificar_arquivo
+from organizer import organizar_arquivo
 
 
 Downloads = Path.home() / 'Downloads'
 
+dry_run = True  # Mude para False para mover os arquivos
+
 for arquivo in Downloads.iterdir():
     if arquivo.is_file():
-        print(f"Nome: {arquivo.name}, Sufixo: {arquivo.suffix}")
         categoria = classificar_arquivo(arquivo)
-        print(f"Categoria: {categoria}")
+
+        organizar_arquivo(arquivo, categoria, dry_run)
