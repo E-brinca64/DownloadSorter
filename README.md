@@ -1,3 +1,4 @@
+[🇺🇸 English](README.md) | [🇧🇷 Português](README.pt.md)
 # DownloadSorter
 
 A simple Python tool that automatically organizes files in your Downloads folder into categorized directories based on their file extensions.
@@ -74,7 +75,3 @@ Files that do not match any configured extension are placed in the `Geral` direc
 ## Compatibility
 
 Developed and tested on Linux. Windows and macOS compatibility have not been tested.
-
----
-
-**Language:** [Português (Brasil)](README.pt.md)
